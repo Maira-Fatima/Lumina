@@ -1,0 +1,32 @@
+{
+    "session_id": "20251211_051601",
+    "title": "bfs",
+    "last_context": "Deep Learning",
+    "log": [
+        {
+            "role": "user",
+            "content": "bfs"
+        },
+        {
+            "role": "assistant",
+            "content": "Breadth-First Search explores graph level by level using queue. Finds shortest path in unweighted graphs. O(V+E) time. **\ud83d\udcca Current Level:** Beginner | **Topic:** Algorithms **\ud83d\udd17 Related Concepts:** - binary search - linear search - bubble sort "
+        },
+        {
+            "role": "user",
+            "content": "neural networks"
+        },
+        {
+            "role": "assistant",
+            "content": "Inspired by biological neurons. Consists of layers: input, hidden, output. Nodes connected by weighted edges. Learns through backpropagation. **\ud83d\udcca Current Level:** Beginner | **Topic:** Deep Learning **\ud83d\udd17 Related Concepts:** - neural network - neuron - activation function "
+        },
+        {
+            "role": "user",
+            "content": "activation funcction"
+        },
+        {
+            "role": "assistant",
+            "content": "**\ud83d\udca1 Did you mean:** - 'activation' \u2192 lemmatization - 'funcction' \u2192 loss function Introduces non-linearity. Common: ReLU (most popular), sigmoid (0 to 1), tanh (-1 to 1), softmax (multi-class). Enables learning complex patterns. **\ud83d\udcca Current Level:** Beginner | **Topic:** Deep Learning **\ud83d\udd17 Related Concepts:** - neural network - neuron - activation function "
+        }
+    ],
+    "pinned": false
+}

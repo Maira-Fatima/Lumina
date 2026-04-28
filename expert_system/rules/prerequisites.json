@@ -1,0 +1,124 @@
+{
+    "rules": [
+        {
+            "id": "prereq_1",
+            "type": "prerequisite",
+            "name": "Check Python before ML",
+            "conditions": [
+                "not_mastered_Python Basics",
+                "attempting_Introduction to ML"
+            ],
+            "actions": [
+                "recommend_Python Basics"
+            ],
+            "confidence": 0.95,
+            "priority": 10,
+            "reason": "Python is essential for Machine Learning"
+        },
+        {
+            "id": "prereq_2",
+            "type": "prerequisite",
+            "name": "Check Linear Algebra before Neural Networks",
+            "conditions": [
+                "not_mastered_Linear Algebra",
+                "attempting_Neural Networks"
+            ],
+            "actions": [
+                "recommend_Linear Algebra"
+            ],
+            "confidence": 0.95,
+            "priority": 10,
+            "reason": "Linear Algebra is fundamental for Neural Networks"
+        },
+        {
+            "id": "prereq_3",
+            "type": "prerequisite",
+            "name": "Check Calculus before Neural Networks",
+            "conditions": [
+                "not_mastered_Calculus",
+                "attempting_Neural Networks"
+            ],
+            "actions": [
+                "recommend_Calculus"
+            ],
+            "confidence": 0.95,
+            "priority": 10,
+            "reason": "Calculus is needed for backpropagation"
+        },
+        {
+            "id": "prereq_4",
+            "type": "prerequisite",
+            "name": "Check BFS before A*",
+            "conditions": [
+                "not_mastered_BFS",
+                "attempting_A* Search"
+            ],
+            "actions": [
+                "recommend_BFS"
+            ],
+            "confidence": 0.9,
+            "priority": 9,
+            "reason": "Understanding BFS helps with A* algorithm"
+        },
+        {
+            "id": "prereq_5",
+            "type": "prerequisite",
+            "name": "Check supervised learning before deep learning",
+            "conditions": [
+                "not_mastered_Supervised Learning",
+                "attempting_Neural Networks"
+            ],
+            "actions": [
+                "recommend_Supervised Learning"
+            ],
+            "confidence": 0.9,
+            "priority": 9,
+            "reason": "Basic ML concepts are needed before deep learning"
+        },
+        {
+            "id": "prereq_6",
+            "type": "prerequisite",
+            "name": "Check RNN before LSTM",
+            "conditions": [
+                "not_mastered_RNN",
+                "attempting_LSTM"
+            ],
+            "actions": [
+                "recommend_RNN"
+            ],
+            "confidence": 0.95,
+            "priority": 10,
+            "reason": "LSTM is an advanced RNN architecture"
+        },
+        {
+            "id": "prereq_7",
+            "type": "prerequisite",
+            "name": "Check CNN before object detection",
+            "conditions": [
+                "not_mastered_CNN",
+                "attempting_Object Detection"
+            ],
+            "actions": [
+                "recommend_CNN"
+            ],
+            "confidence": 0.95,
+            "priority": 10,
+            "reason": "Object detection builds on CNN knowledge"
+        },
+        {
+            "id": "prereq_8",
+            "type": "prerequisite",
+            "name": "Check transformers before BERT",
+            "conditions": [
+                "not_mastered_Transformers",
+                "attempting_BERT"
+            ],
+            "actions": [
+                "recommend_Transformers"
+            ],
+            "confidence": 0.95,
+            "priority": 10,
+            "reason": "BERT is based on transformer architecture"
+        }
+    ]
+}
