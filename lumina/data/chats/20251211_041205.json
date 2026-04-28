@@ -1,0 +1,80 @@
+{
+    "session_id": "20251211_041205",
+    "title": "what are hast tables",
+    "last_context": "Algorithms",
+    "log": [
+        {
+            "role": "user",
+            "content": "what are hast tables"
+        },
+        {
+            "role": "assistant",
+            "content": "Stores key-value pairs using hash function. O(1) average-case operations. Handles collisions with chaining or open addressing. **\ud83d\udcca Current Level:** Beginner | **Topic:** Data Structures **\ud83d\udd17 Related Concepts:** - array - linked list - singly linked list "
+        },
+        {
+            "role": "user",
+            "content": "explain something advance"
+        },
+        {
+            "role": "assistant",
+            "content": "Learns word embeddings from large corpus. Two architectures: CBOW (predict word from context), Skip-gram (predict context from word). Captures semantic relationships. **\ud83d\udcca Current Level:** Beginner | **Topic:** Machine Learning **\ud83d\udd17 Related Concepts:** - machine learning - supervised learning - unsupervised learning "
+        },
+        {
+            "role": "user",
+            "content": "CBOW"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry, I couldn't find a confident answer in my knowledge base. Could you please rephrase your question? **\ud83d\udcca Current Level:** Beginner | **Topic:** Machine Learning "
+        },
+        {
+            "role": "user",
+            "content": "large corpus"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry, I couldn't find a confident answer in my knowledge base. Could you please rephrase your question? **\ud83d\udcca Current Level:** Beginner | **Topic:** Machine Learning "
+        },
+        {
+            "role": "user",
+            "content": "what are if else exlapin with code example"
+        },
+        {
+            "role": "assistant",
+            "content": "Examining code for bugs, style, and best practices. Improves code quality, knowledge sharing. Can be pair programming or pull request reviews. **\ud83d\udcca Current Level:** Beginner | **Topic:** Software Engineering **\ud83d\udd17 Related Concepts:** - SDLC - Agile - Scrum "
+        },
+        {
+            "role": "user",
+            "content": "bfs"
+        },
+        {
+            "role": "assistant",
+            "content": "Breadth-First Search explores graph level by level using queue. Finds shortest path in unweighted graphs. O(V+E) time. **\ud83d\udcca Current Level:** Beginner | **Topic:** Algorithms **\ud83d\udd17 Related Concepts:** - binary search - linear search - bubble sort "
+        },
+        {
+            "role": "user",
+            "content": "dfs"
+        },
+        {
+            "role": "assistant",
+            "content": "Depth-First Search explores graph by going as deep as possible using stack/recursion. Used for cycle detection, topological sort. O(V+E) time. **\ud83d\udcca Current Level:** Beginner | **Topic:** Algorithms **\ud83d\udd17 Related Concepts:** - binary search - linear search - bubble sort "
+        },
+        {
+            "role": "user",
+            "content": "dsf"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry, I couldn't find a confident answer in my knowledge base. Could you please rephrase your question? **\ud83d\udcca Current Level:** Beginner | **Topic:** Machine Learning "
+        },
+        {
+            "role": "user",
+            "content": "bubble sort"
+        },
+        {
+            "role": "assistant",
+            "content": "Simple sorting that repeatedly swaps adjacent elements if out of order. O(n\u00b2) time. Rarely used in practice. **\ud83d\udcca Current Level:** Beginner | **Topic:** Algorithms **\ud83d\udd17 Related Concepts:** - binary search - linear search - bubble sort "
+        }
+    ],
+    "pinned": false
+}

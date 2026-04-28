@@ -1,0 +1,100 @@
+{
+    "paths": {
+        "Machine Learning Beginner": [
+            "Python Basics",
+            "Mathematics Basics",
+            "Statistics",
+            "Introduction to ML",
+            "Supervised Learning",
+            "Linear Regression",
+            "Logistic Regression",
+            "Decision Trees"
+        ],
+        "Machine Learning Intermediate": [
+            "Random Forest",
+            "SVM",
+            "KNN",
+            "Naive Bayes",
+            "Unsupervised Learning",
+            "K-Means",
+            "PCA"
+        ],
+        "Deep Learning Path": [
+            "Linear Algebra",
+            "Calculus",
+            "Supervised Learning",
+            "Neural Networks",
+            "Backpropagation",
+            "CNN",
+            "RNN",
+            "LSTM",
+            "Transformers"
+        ],
+        "NLP Specialist": [
+            "Text Preprocessing",
+            "Tokenization",
+            "Neural Networks",
+            "Word Embeddings",
+            "Word2Vec",
+            "RNN",
+            "LSTM",
+            "Transformers",
+            "BERT",
+            "GPT"
+        ],
+        "Computer Vision Path": [
+            "Linear Algebra",
+            "Image Processing",
+            "CNN",
+            "Image Classification",
+            "Object Detection",
+            "YOLO",
+            "R-CNN",
+            "Image Segmentation"
+        ],
+        "Reinforcement Learning Path": [
+            "Probability",
+            "Python Basics",
+            "RL Fundamentals",
+            "MDP",
+            "Q-Learning",
+            "SARSA",
+            "Policy Gradients",
+            "Actor-Critic",
+            "DQN"
+        ],
+        "AI Foundations": [
+            "Python Basics",
+            "Mathematics Basics",
+            "Arrays",
+            "Graphs",
+            "BFS",
+            "DFS",
+            "A* Search",
+            "Knowledge Representation",
+            "Inference Rules"
+        ]
+    },
+    "path_metadata": {
+        "Machine Learning Beginner": {
+            "description": "Start your ML journey with foundational concepts",
+            "estimated_weeks": 8,
+            "difficulty": "Beginner"
+        },
+        "Deep Learning Path": {
+            "description": "Master neural networks and modern deep learning",
+            "estimated_weeks": 16,
+            "difficulty": "Advanced"
+        },
+        "NLP Specialist": {
+            "description": "Become an expert in natural language processing",
+            "estimated_weeks": 14,
+            "difficulty": "Advanced"
+        },
+        "Computer Vision Path": {
+            "description": "Learn image processing and computer vision",
+            "estimated_weeks": 12,
+            "difficulty": "Advanced"
+        }
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "rules": [
+        {
+            "id": "rec_1",
+            "type": "recommendation",
+            "name": "Recommend DFS after BFS mastery",
+            "conditions": [
+                "mastered_BFS",
+                "not_mastered_DFS"
+            ],
+            "actions": [
+                "recommend_DFS"
+            ],
+            "confidence": 0.9,
+            "priority": 8,
+            "reason": "DFS is a natural next step after mastering BFS"
+        },
+        {
+            "id": "rec_2",
+            "type": "recommendation",
+            "name": "Recommend advanced search after basics",
+            "conditions": [
+                "mastered_BFS",
+                "mastered_DFS",
+                "not_mastered_A* Search"
+            ],
+            "actions": [
+                "recommend_A* Search"
+            ],
+            "confidence": 0.85,
+            "priority": 7,
+            "reason": "Ready for advanced search algorithms"
+        },
+        {
+            "id": "rec_3",
+            "type": "recommendation",
+            "name": "Recommend Neural Networks after ML basics",
+            "conditions": [
+                "mastered_Supervised Learning",
+                "mastered_Linear Algebra",
+                "mastered_Calculus",
+                "not_mastered_Neural Networks"
+            ],
+            "actions": [
+                "recommend_Neural Networks"
+            ],
+            "confidence": 0.9,
+            "priority": 8,
+            "reason": "All prerequisites met for deep learning"
+        },
+        {
+            "id": "rec_4",
+            "type": "recommendation",
+            "name": "Recommend CNN after Neural Networks",
+            "conditions": [
+                "mastered_Neural Networks",
+                "not_mastered_CNN"
+            ],
+            "actions": [
+                "recommend_CNN"
+            ],
+            "confidence": 0.9,
+            "priority": 8,
+            "reason": "CNN is the next step in deep learning"
+        },
+        {
+            "id": "rec_5",
+            "type": "recommendation",
+            "name": "Review basics when struggling",
+            "conditions": [
+                "struggling_Neural Networks",
+                "proficient_Supervised Learning"
+            ],
+            "actions": [
+                "recommend_review_Linear Algebra",
+                "recommend_review_Calculus"
+            ],
+            "confidence": 0.8,
+            "priority": 9,
+            "reason": "Reviewing math fundamentals may help"
+        },
+        {
+            "id": "rec_6",
+            "type": "recommendation",
+            "name": "Provide easier alternatives",
+            "conditions": [
+                "struggling_A* Search",
+                "mastered_BFS"
+            ],
+            "actions": [
+                "recommend_practice_BFS",
+                "recommend_Dijkstra's Algorithm"
+            ],
+            "confidence": 0.75,
+            "priority": 7,
+            "reason": "Build confidence with intermediate topics"
+        },
+        {
+            "id": "rec_7",
+            "type": "recommendation",
+            "name": "Recommend specialization",
+            "conditions": [
+                "mastered_Neural Networks",
+                "mastered_CNN",
+                "mastered_RNN"
+            ],
+            "actions": [
+                "recommend_choose_specialization"
+            ],
+            "confidence": 0.8,
+            "priority": 6,
+            "reason": "Ready to specialize in NLP, CV, or RL"
+        },
+        {
+            "id": "rec_8",
+            "type": "recommendation",
+            "name": "Recommend Transformers",
+            "conditions": [
+                "mastered_LSTM",
+                "mastered_Attention Mechanism",
+                "not_mastered_Transformers"
+            ],
+            "actions": [
+                "recommend_Transformers"
+            ],
+            "confidence": 0.9,
+            "priority": 8,
+            "reason": "Ready for state-of-the-art architectures"
+        },
+        {
+            "id": "rec_9",
+            "type": "recommendation",
+            "name": "Suggest practice after theory",
+            "conditions": [
+                "proficient_Decision Trees",
+                "low_practice_count"
+            ],
+            "actions": [
+                "recommend_practice_problems"
+            ],
+            "confidence": 0.85,
+            "priority": 7,
+            "reason": "Practice reinforces theoretical knowledge"
+        },
+        {
+            "id": "rec_10",
+            "type": "recommendation",
+            "name": "Recommend projects",
+            "conditions": [
+                "mastered_CNN",
+                "mastered_RNN",
+                "no_projects"
+            ],
+            "actions": [
+                "recommend_build_project"
+            ],
+            "confidence": 0.8,
+            "priority": 6,
+            "reason": "Projects solidify learning"
+        },
+        {
+            "name": "custom_rule",
+            "conditions": [
+                [
+                    "test",
+                    "condition",
+                    ">",
+                    50
+                ]
+            ],
+            "actions": [
+                [
+                    "test",
+                    "action"
+                ]
+            ],
+            "priority": 1,
+            "confidence": 0.8
+        }
+    ]
+}

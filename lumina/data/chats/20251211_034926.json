@@ -1,0 +1,32 @@
+{
+    "session_id": "20251211_034926",
+    "title": "what is AI",
+    "last_context": "Machine Learning",
+    "log": [
+        {
+            "role": "user",
+            "content": "what is AI"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry, I couldn't find a confident answer in my knowledge base. Could you please rephrase your question? **\ud83d\udcca Current Level:** Beginner | **Topic:** Machine Learning "
+        },
+        {
+            "role": "user",
+            "content": "machine learing"
+        },
+        {
+            "role": "assistant",
+            "content": "**\ud83d\udca1 Did you mean:** - 'learing' \u2192 clustering, learning rate A subset of AI where systems learn from data without explicit programming. Algorithms improve performance through experience. Three main types: supervised, unsupervised, reinforcement. **\ud83d\udcca Current Level:** Beginner | **Topic:** Machine Learning **\ud83d\udd17 Related Concepts:** - machine learning - supervised learning - unsupervised learning "
+        },
+        {
+            "role": "user",
+            "content": "clustering"
+        },
+        {
+            "role": "assistant",
+            "content": "Partitions data into k clusters by minimizing within-cluster variance. Iteratively updates centroids. Fast but sensitive to initialization and outliers. **\ud83d\udcca Current Level:** Beginner | **Topic:** Machine Learning **\ud83d\udd17 Related Concepts:** - machine learning - supervised learning - unsupervised learning "
+        }
+    ],
+    "pinned": false
+}

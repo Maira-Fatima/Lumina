@@ -1,0 +1,32 @@
+{
+    "session_id": "20251021_222921",
+    "title": "Tell me about hash table",
+    "last_context": "General",
+    "log": [
+        {
+            "role": "user",
+            "content": "Tell me about hash table"
+        },
+        {
+            "role": "assistant",
+            "content": "A hash table stores key-value pairs and uses a hash function to convert a key into a numerical index. This allows for lookups, on average, to be performed in O(1) time, as the key directly points to the value's location. "
+        },
+        {
+            "role": "user",
+            "content": "how are you"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry, I couldn't find a confident answer in my knowledge base. Could you please rephrase your question? "
+        },
+        {
+            "role": "user",
+            "content": "hy"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm sorry, I couldn't find a confident answer in my knowledge base. Could you please rephrase your question? "
+        }
+    ],
+    "pinned": false
+}
